@@ -1,0 +1,14 @@
+{
+  "stable": {
+    "version": "0.1.0",
+    "published": "2026-10-13",
+    "notes": "First beta.",
+    "download": "https://h4harshill.github.io/jarvis/"
+  },
+  "beta": {
+    "version": "0.1.0",
+    "published": "2026-10-13",
+    "notes": "First beta.",
+    "download": "https://h4harshill.github.io/jarvis/"
+  }
+}
