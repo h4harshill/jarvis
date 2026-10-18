@@ -31,3 +31,11 @@ p, li { color: var(--text); }
 .muted { color: var(--muted); }
 ul { padding-left: 22px; }
 footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+.small { font-size: 14px; }
+.downloads { display: flex; flex-wrap: wrap; gap: 16px; margin: 12px 0; }
+.dl { flex: 1 1 260px; }
+.button { display: inline-block; padding: 12px 22px; border-radius: 10px; background: var(--accent);
+  color: var(--bg) !important; font-weight: 600; text-decoration: none; }
+.button:hover { filter: brightness(1.08); }
+.button.disabled { background: var(--line); color: var(--muted) !important; cursor: default; filter: none; }
+.dl p { margin: 6px 0 0; }
