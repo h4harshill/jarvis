@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JARVIS — voice assistant for your computer</title>
-  <meta name="description" content="JARVIS is a voice-first personal assistant for Mac (Windows soon) that speaks English, Hindi and Hinglish.">
+  <meta name="description" content="JARVIS is a voice-first personal assistant for Mac and Windows that speaks English, Hindi and Hinglish.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,10 +12,10 @@
   <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
 
   <h1>JARVIS</h1>
-  <p class="muted">A voice-first personal assistant for your Mac. Beta.</p>
+  <p class="muted">A voice-first personal assistant for Mac and Windows. Beta.</p>
 
   <p>Talk to JARVIS in English, Hindi or Hinglish and it helps with everyday work on your
-  Mac: open apps, control music and volume, check the weather, manage your calendar, read and
+  computer: open apps, control music and volume, check the weather, manage your calendar, read and
   draft emails, message and call your contacts, and remember things you ask it to.</p>
 
   <h2 id="download">Download (beta 0.1.0)</h2>
@@ -25,20 +25,23 @@
       <p class="muted small">macOS 14 or newer · Apple silicon (M1 or later) · includes a PDF setup guide</p>
     </div>
     <div class="dl">
-      <span class="button disabled">Windows: coming soon</span>
-      <p class="muted small">Windows 10 and 11 · in testing now</p>
+      <a class="button" href="https://github.com/h4harshill/jarvis/releases/download/v0.1.0/JARVIS-0.1.0-Windows.zip">Download for Windows</a>
+      <p class="muted small">Windows 10 or 11 (64-bit) · installer · includes a PDF setup guide</p>
     </div>
   </div>
   <p class="small">First time on a Mac: macOS asks you to confirm the beta once (System Settings →
-  Privacy &amp; Security → <b>Open Anyway</b>). All the steps:
-  <a href="setup-guide-mac.pdf">Mac setup guide (PDF)</a>. Download JARVIS only from this page.</p>
+  Privacy &amp; Security → <b>Open Anyway</b>). On Windows, the beta installer isn't signed yet:
+  your browser may warn about the download (choose <b>Keep</b>) and Windows may show “Windows
+  protected your PC” (click <b>More info → Run anyway</b>). All the steps:
+  <a href="setup-guide-mac.pdf">Mac guide (PDF)</a> · <a href="setup-guide-windows.pdf">Windows guide (PDF)</a>.
+  Download JARVIS only from this page.</p>
 
   <h2>You stay in control</h2>
   <ul>
     <li>Anything that sends, changes or deletes something (an email, a message, a calendar
       event, a call) is shown to you first and only happens after you approve it.</li>
-    <li>JARVIS runs on your Mac. Your conversations, contacts and settings are stored on your
-      Mac, and sign-in tokens are kept in the macOS keychain.</li>
+    <li>JARVIS runs on your computer. Your conversations, contacts and settings are stored on it,
+      and sign-in tokens are kept in the macOS keychain or Windows Credential Manager.</li>
     <li>You choose which features are on, and can switch any of them off at any time.</li>
   </ul>
 

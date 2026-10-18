@@ -11,15 +11,15 @@
   <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
 
   <h1>Privacy policy</h1>
-  <p class="muted">Last updated: 13 October 2026</p>
+  <p class="muted">Last updated: 18 October 2026</p>
 
-  <p>JARVIS is a desktop app for macOS made by h4harshill ("we"). This policy explains what
+  <p>JARVIS is a desktop app for macOS and Windows made by h4harshill ("we"). This policy explains what
   data JARVIS uses, where it goes and how you control it. JARVIS is in beta; we will update
   this page when anything changes.</p>
 
   <h2>The short version</h2>
   <ul>
-    <li>JARVIS runs on your Mac. We do not run servers that receive your conversations, emails,
+    <li>JARVIS runs on your computer. We do not run servers that receive your conversations, emails,
       contacts or calendar. We do not sell your data or use it for advertising.</li>
     <li>To understand and answer you, JARVIS sends your voice, typed requests and the
       information needed for the answer to Google's Gemini AI, using your own Gemini API
@@ -28,16 +28,16 @@
       app.</li>
   </ul>
 
-  <h2>What stays on your Mac</h2>
+  <h2>What stays on your computer</h2>
   <ul>
     <li>Conversation transcripts, task history, approvals and an activity log, in a local
-      database in your Mac's user folder.</li>
+      database in your user folder on your computer.</li>
     <li>Things you ask JARVIS to remember, routines and settings.</li>
     <li>A local copy of your Google Contacts (if you connect them), so JARVIS can find people
       quickly, plus simple counts of whom you message or call most, so it can pick the right
       person when several share a name. Message content is not kept for this.</li>
     <li>Sign-in tokens, API keys and passwords you enter are stored only in the macOS
-      keychain. They are never written to logs or diagnostic reports.</li>
+      keychain or Windows Credential Manager. They are never written to logs or diagnostic reports.</li>
   </ul>
 
   <h2>Google user data</h2>
@@ -55,7 +55,7 @@
       play. Nothing is posted, liked or changed.</li>
     <li>Your Google email address, to show which account is connected.</li>
   </ul>
-  <p>Google data is read directly from Google by the app on your Mac. The parts needed to
+  <p>Google data is read directly from Google by the app on your computer. The parts needed to
   answer a request (for example the text of an email you asked JARVIS to read) are sent to
   Google's Gemini AI to produce the answer. Google data is not sent to us or to anyone else,
   is not used for advertising, is not sold, and is not used to train AI models by us.</p>
@@ -81,8 +81,8 @@
       sent.</li>
     <li><strong>Other email accounts</strong> (e.g. Hostinger, Zoho): JARVIS connects directly
       to your email provider over an encrypted connection.</li>
-    <li><strong>WhatsApp and calls</strong>: JARVIS uses the WhatsApp and Phone/FaceTime apps on
-      your Mac, after your approval.</li>
+    <li><strong>WhatsApp and calls</strong>: JARVIS uses the WhatsApp app (and, on a Mac,
+      Phone/FaceTime) on your computer, after your approval.</li>
     <li><strong>Update check</strong> (can be turned off in Settings → Updates): once a day
       JARVIS downloads a small version file from this website to see whether a newer version
       exists. Nothing about you is sent; nothing is installed automatically.</li>
@@ -102,11 +102,12 @@
       <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
     <li>View, edit or delete what JARVIS remembers on the Memory page.</li>
     <li>To remove everything, quit JARVIS, delete the app, and delete the folder
-      <code>~/Library/Application Support/shilex</code>.</li>
+      <code>~/Library/Application Support/shilex</code> on a Mac, or
+      <code>%LOCALAPPDATA%\Shilex\shilex</code> on Windows (and uninstall JARVIS).</li>
   </ul>
 
   <h2>Security</h2>
-  <p>Credentials are kept in the macOS keychain; connections to online services use
+  <p>Credentials are kept in the macOS keychain or Windows Credential Manager; connections to online services use
   encryption (HTTPS/TLS). Logs and diagnostic reports remove secrets automatically.</p>
 
   <h2>Children</h2>
