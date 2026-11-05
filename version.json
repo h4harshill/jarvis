@@ -1,14 +1,54 @@
 {
   "stable": {
-    "version": "0.1.0",
-    "published": "2026-10-13",
-    "notes": "First beta.",
-    "download": "https://h4harshill.github.io/jarvis/"
+    "version": "0.2.0",
+    "channel": "stable",
+    "published": "2026-11-05",
+    "notes": "Google sign-in can be cancelled; clearer message when Google blocks an account; many fixes and improvements.",
+    "download": "https://h4harshill.github.io/jarvis/",
+    "assets": [
+      {
+        "platform": "macos",
+        "arch": "arm64",
+        "kind": "app-zip",
+        "url": "https://github.com/h4harshill/jarvis/releases/download/v0.2.0/JARVIS-0.2.0-Mac.zip",
+        "sha256": "749d921ac31d550cd90042d25875138d15e0542886633be45525f12b83588759",
+        "size": 76227852
+      },
+      {
+        "platform": "windows",
+        "arch": "x86_64",
+        "kind": "inno-setup",
+        "url": "https://github.com/h4harshill/jarvis/releases/download/v0.2.0/JARVIS-Setup-0.2.0.exe",
+        "sha256": "e48220ab6694f4f781b371596213393378901efdaf6559e9b8a84c7a4e1f39b2",
+        "size": 65759499
+      }
+    ],
+    "signature": "ku5CQSB/HR4O/3BGBZDyEwNH6VMUWlRmgUqydkkd/bY9OgCs72338QVLMSAgKkmyYgIDevd8mLo/mgyAAmTJCA=="
   },
   "beta": {
-    "version": "0.1.0",
-    "published": "2026-10-13",
-    "notes": "First beta.",
-    "download": "https://h4harshill.github.io/jarvis/"
+    "version": "0.2.0",
+    "channel": "stable",
+    "published": "2026-11-05",
+    "notes": "Google sign-in can be cancelled; clearer message when Google blocks an account; many fixes and improvements.",
+    "download": "https://h4harshill.github.io/jarvis/",
+    "assets": [
+      {
+        "platform": "macos",
+        "arch": "arm64",
+        "kind": "app-zip",
+        "url": "https://github.com/h4harshill/jarvis/releases/download/v0.2.0/JARVIS-0.2.0-Mac.zip",
+        "sha256": "749d921ac31d550cd90042d25875138d15e0542886633be45525f12b83588759",
+        "size": 76227852
+      },
+      {
+        "platform": "windows",
+        "arch": "x86_64",
+        "kind": "inno-setup",
+        "url": "https://github.com/h4harshill/jarvis/releases/download/v0.2.0/JARVIS-Setup-0.2.0.exe",
+        "sha256": "e48220ab6694f4f781b371596213393378901efdaf6559e9b8a84c7a4e1f39b2",
+        "size": 65759499
+      }
+    ],
+    "signature": "ku5CQSB/HR4O/3BGBZDyEwNH6VMUWlRmgUqydkkd/bY9OgCs72338QVLMSAgKkmyYgIDevd8mLo/mgyAAmTJCA=="
   }
 }
